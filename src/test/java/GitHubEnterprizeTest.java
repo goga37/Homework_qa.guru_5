@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class GitHubEnterprizeTest {
     @BeforeAll
-    static void beforeAll() {
+    static void setupConfig() {
         Configuration.browserSize = "1920x1080";
     }
 
